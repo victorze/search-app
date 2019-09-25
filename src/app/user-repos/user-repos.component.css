@@ -1,0 +1,15 @@
+h2 {
+  margin: 1.5rem 0;
+}
+h3 {
+  margin: 1rem 0 0.5rem 0;
+}
+p {
+  margin: 0.5rem 0;
+}
+.repos > div:not(:last-child) {
+  border-bottom: 1px solid silver;
+}
+.repos {
+  margin-bottom: 2rem;
+}

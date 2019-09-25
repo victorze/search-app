@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+/* Application-wide Styles */
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+h1 {
+  color: #DD5E89;
+  font-size: 2.5rem;
+}
+h2, h3 {
+  color: #3893AB;
+  font-weight: lighter;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+body, input[type="text"], button {
+  color: #333;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+nav a:visited, a:link {
+  color: inherit;
+}
+nav a:hover {
+  opacity: 0.8;
+}
+nav a.active {
+  color: #039be5;
+}
+button {
+  cursor: pointer;
+}

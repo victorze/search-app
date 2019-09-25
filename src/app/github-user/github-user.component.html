@@ -1,0 +1,16 @@
+<h1>Github User</h1>
+
+<app-user-search
+     (user)="search($event)">
+</app-user-search>
+
+<div *ngIf="user" class="user">
+    <app-user
+      [user]="user">
+    </app-user>
+
+    <app-user-repos
+      [repos]="repos">
+    </app-user-repos>
+
+</div>

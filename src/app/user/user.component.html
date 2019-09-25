@@ -1,0 +1,15 @@
+<section class="info">
+  <div>
+    <img src="{{user.avatar_url}}" alt="{{user.name}}">
+  </div>
+  <div>
+    <header>
+      <h2>{{user.name}}</h2>
+      <h4>{{user.login}}</h4>
+    </header>
+    <p *ngIf="user.bio">{{user.bio}}</p>
+    <p *ngIf="user.company">{{user.company}}</p>
+    <p *ngIf="user.location">{{user.location}}</p>
+    <p *ngIf="user.email">{{user.email}}</p>
+  </div>
+</section>
