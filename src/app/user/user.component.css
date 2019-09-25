@@ -8,10 +8,13 @@ p {
   display: flex;
   flex-direction: column;
 }
+.info > div:first-child {
+  text-align: center;
+}
 .info > div > img {
-  border-radius: 50%;
-  width: 100%;
   max-width: 15rem;
+  width: 100%;
+  border-radius: 50%;
 }
 @media screen and (min-width: 768px) {
   .info {
