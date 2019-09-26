@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { GithubUserComponent } from '../github-user/github-user.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/github', pathMatch: 'full' },
   { path: 'github', component: GithubUserComponent},
 ];
 

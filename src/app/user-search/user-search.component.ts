@@ -15,7 +15,7 @@ export class UserSearchComponent implements OnInit {
   ngOnInit() {
   }
 
-  sendUserToParent(user: string) {
+  send(user: string) {
     this.user.emit(user)
   }
 

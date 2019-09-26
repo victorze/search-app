@@ -16,7 +16,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     GithubUserComponent,
     UserComponent,
     UserSearchComponent,
-    UserReposComponent
+    UserReposComponent,
   ],
   imports: [
     BrowserModule,
